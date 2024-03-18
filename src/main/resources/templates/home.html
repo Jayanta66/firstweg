@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head th:style="'background: url(/images/istockphoto-1301592082-170667a.jpg) no-repeat fixed;background-size: cover;'">
+<meta charset="ISO-8859-1">
+   <link rel="stylesheet" type="text/css" href="" th:href="@{/css/home.css}">
+	<link rel="stylesheet" type="text/css" href="" th:href="@{/css/video_player2.css}">
+	<script src="static/js/" th:src="@{/js/video_player2.js}" type="text/javascript"></script>
+  <title>LiveWeb</title>
+  <h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp L   I  V  E   W  E  B</h1>
+  		<br>
+	<br>
+<br>
+  	<h2>Welcome to the LIVE WEB .We are happy to be with you</h2>
+
+<h6>&nbsp THANK YOU FOR VISITING US .&nbsp &nbsp &nbsp  PLEASE REGISTER. &nbsp &nbsp &nbsp &nbsp &nbsp IT'S OUR PLEASURE, YOU ARE HERE.</h6>
+
+    <link rel="stylesheet" type="text/css" href="" th:href="@{/css/in.css}">
+    <script src="" th:src="@{/js/easy_background.js}" type="text/javascript"></script>
+    
+    <link rel="stylesheet" type="text/css" href=""  th:href="@{/css/slide_image.css}">
+    <br>
+
+    <br>
+  
+  </head>
+<body th:style="'background: url(/images/istockphoto-1301592082-170667a.jpg) no-repeat fixed;background-size: cover;'">
+
+<div>
+    <div calss= "jay">
+        <a th:href="@{/home}">HOME</a>
+     	<a th:href="@{/photo_gallary}" >GALLARY</a>
+     	<a th:href="@{/videolist}">VIDEOS</a>
+     	<a th:href="@{/game}">Game</a>
+     	<a th:href="@{/searchpage}">SEARCH</a>
+             	
+    </div>
+    
+    <div class="logout">     	
+    <a class="logout" th:href="@{/logout}">logout</a>
+    </div>
+    </div>
+    	
+<div class="slideshow">
+  <div class="slideshow-container slide" >
+
+<img src="" width="300" height="400" th:src="@{images/116da59d6e483070f72d9a5b09dfd130.jpg}"/>
+<img src="" width="300" height="400" th:src="@{images/13959adfbc9c48213e74ee6e0dc4f519.jpg}"/>
+<img src="" width="300" height="400" th:src="@{images/4d10fa5180eb7e4b2c8ae2cb7268d023.jpg}"/>
+<img src="" width="300" height="400" th:src="@{images/6be2616cc58da2ceb9d87eece0390ae1.jpg}"/>
+<img src="" width="300" height="400" th:src="@{7adb2b04f20de4396b81521178d08014.jpg}"/>
+
+  </div>
+</div>
+
+
+
+<marquee vspace="0">
+<font size="2" color="#eb3483">
+<h2>
+Welcome to "L  I  V E  W E B"
+</h2>
+</font>
+</marquee>
+
+<marquee  vspace="0" behavior="scroll" direction="left">
+<img class="run"  src="images/116da59d6e483070f72d9a5b09dfd130.jpg" />
+
+</marquee>
+            
+  
+  <section class="half">
+<form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KQvBXR0md7W6dR" async> </script> </form>
+
+          <!--PYAMENT LINK -->
+
+            
+
+
+
+<div class="w3-content w3-section">
+  <img class="mySlides" src="" th:src="@{/images/13959adfbc9c48213e74ee6e0dc4f519.jpg}"  >
+  <img class="mySlides" src="" th:src="@{/images/4d10fa5180eb7e4b2c8ae2cb7268d023.jpg}">
+  <img class="mySlides" scr="" th:src="@{/images/6be2616cc58da2ceb9d87eece0390ae1.jpg}">
+</div>
+
+
+
+</style>
+
+<script class="runn">
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script class="runn">
+
+
+<!--
+        <img src="hindu_refugee.jpg" alt="internet image" width="300" height="200"></img>
+
+
+    <br>
+
+        <img src="Refugee_3.jpg" alt="internet image"  width="200" height="120"></img>
+
+        <br>
+
+         <img src="hindu_refugee.jpg" alt="internet image" width="200" height="90"></img>
+
+
+       -->
+
+    </section class="half">
+    
+    
+    <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KQutcIiev2X6cO" async>
+</script>
+ </form>
+    
+    <h2>WATCH HERE :</h2>
+
+  <div class="videoWrapper">
+   <iframe id="player1" 
+    width="500" height="320" src="https://www.youtube.com/embed/9-sWNeBICZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+    
+</div>
+
+  <div id="allvideos">
+        <h2>Videos here : </h2><br>
+    <div class="video">
+    <video src="videos/ola" width="420px" height="480px" controls preload="none">
+    </video>
+</div>
+
+    <div class="video">
+    <video src="videos/ola" width="420px" height="480px" controls preload="none">
+    </video>
+</div>
+    <div class="video">
+    <video src="videos/ola" width="420px" height="480px" controls preload="none">
+    </video>
+</div>
+    <div class="video">
+    <video src="videos/ola" width="420px" height="480px" controls preload="none">
+    </video>
+</div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+
+    <a href="gallery_2.html" >Another Gallery</a>
+     	<a th:href="@{/home}" >HOME</a>
+
+
+<h2>Image Gallery</h2>
+<h4>Thank you for visiting this page</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="istockphoto-538811669-170667a.jpg">
+      <img src="" th:src="@{/images/istockphoto-1301592082-170667a.jpg}" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="HD-wallpaper-small-boy-with-butterfly-on-nose-cartoon-cartoon-thumbnail.jpg">
+      <img src="" th:src="@{/images/fe03db68477dbf4a623d974644884620.jpg}" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="EIWeZn.jpg">
+      <img src="" th:src="@{/images/df743a43a7a0e892a71fd2294a11b43e.jpg}" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="d7a06l1-1008b8a9-f635-4ff7-8631-2d87ddb476f3.jpg">
+      <img src="" th:src="@{/images/d2b293227b9315028ffb0f9453c1a164.jpg}" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+<link rel="stylesheet" type="text/css" href="" th:href="@{/css/photo_gallary.css}">
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="9cc3895d040cccbe6f6e4c94fc5cad1a.png">
+      <img src="" th:src="@{/images/b891d5eda3bfec2997828f410288c4b9.jpg}" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="7adb2b04f20de4396b81521178d08014.jpg">
+      <img src="" th:src="@{/images/6be2616cc58da2ceb9d87eece0390ae1.jpg}" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="13959adfbc9c48213e74ee6e0dc4f519.jpg">
+      <img src=""  th:src="@{/images/4d10fa5180eb7e4b2c8ae2cb7268d023.jpg}" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="116da59d6e483070f72d9a5b09dfd130.jpg">
+      <img src=""  th:src="@{/images/istockphoto-538811669-170667a.jpg}" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+
+
+
+
+
+
+<div style="padding:6px;">
+  <p>PHOTO GALARRY PHOTO GALARRY PHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRYPHOTO GALARRY</p>
+  <p>PHOTO GALARRY</p>
+</div>
+
+</body>
+</html>

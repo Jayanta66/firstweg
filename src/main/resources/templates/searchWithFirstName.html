@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+   <link rel="stylesheet" type="text/css" href="" th:href="@{/css/searchpage.css}">
+	<link rel="stylesheet" type="text/css" href="" th:href="@{/css/video_player2.css}">
+	<script src="static/js/" th:src="@{/js/video_player2.js}" type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Search With First Name</h1>
+
+    <div class= "search">
+    <a th:href="@{/home}" >HOME</a>
+        <a th:href="@{/searchWithKeyWord}">Search With Key Word</a>
+     	<a th:href="@{/searchWithId}" >Search With id</a>
+     	<a th:href="@{/searchWithEmail}">Search With email</a>
+     	<a th:href="@{/searchWithFirstName}" >Search With FirstName</a>
+     	<a th:href="@{/searchWithLastName}">Search With LastName</a>
+        <a th:href="@{/searchWithMobile}">Search With Mobile</a>
+      	
+    </div>
+
+</body>
+</html>

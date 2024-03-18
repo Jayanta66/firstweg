@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+    <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="" th:href="@{/css/index.css}">
+  <link rel="stylesheet" type="text/css" href="" th:href="@{/css/video_player2.css}">
+  
+    <link rel="stylesheet" type="text/css" href="" th:href="@{/css/med.css}">
+  
+  
+  <script src="static/js/" th:src="@{/js/video_player2.js}" type="text/javascript"></script>
+<title>&nbsp &nbsp &nbspLiveWeb</title>
+
+  
+<style> 
+		body { 
+			margin: 0; 
+			padding: 0; 
+		} 
+
+	/*	div { 
+			position: absolute; 
+			top: 50%; 
+			left: 50%; 
+			transform: translate(-50%, -50%); 
+		} 
+*/
+		h6 { 
+			font-size: 1.0rem; 
+			font-family: serif; 
+			color: #ff1a1a;
+			background-color: #ffe6f9;
+			text-align: center;
+			animation: animate 
+				1.5s linear infinite; 
+		} 
+
+		@keyframes animate { 
+			0% { 
+				opacity: 0; 
+			} 
+
+			50% { 
+				opacity: 0.7; 
+			} 
+
+			100% { 
+				opacity: 0; 
+			} 
+		} 
+	</style>
+
+</head>
+<header>
+<div id="a">
+
+<h1>LiveWeb</h1>
+
+</div>
+    <div calss= "jay">
+        <a th:href="@{/index}">HOME</a>
+     	<a th:href="@{/contact}" >Contact</a>
+     	<a th:href="@{/help}">Help</a>
+     	<a th:href="@{/aboutUs}" >About Us</a>             	
+    </div>
+
+<div id="b">
+<h2>Have a account?<h2>
+<div id="c">
+<a th:href="@{/login}" >login</a>
+</div>
+
+</div>
+
+</header>
+
+<body>
+<h3>LiveWeb<br> Starts Here</h3>
+
+</div>
+
+<footer id="con2">
+<div id="vv">
+<h4>Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre of which is a 22-yard (20-metre) pitch with a 
+wicket at each end, each comprising two bails balanced on three stumps. The batting side scores runs by striking the ball bowled at the wicket with 
+the bat (and running between the wickets), while the bowling and fielding side tries to prevent this (by preventing the ball from leaving the field, 
+and getting the ball to either wicket) and dismiss each batter </h4>
+</div>
+<br>
+<!-- 
+<button><p>MAKE MY Class Greate</p></button>
+ -->
+<div id="sf">
+
+<nav>
+
+	<ul>
+	
+			<li>     	<a th:href="@{/index}" >Home</a>
+</li>
+			
+			
+			<li>     	<a th:href="@{/contact}" >Contact</a>
+</li>
+
+
+			<li>     	<a th:href="@{/help}" >Help</a>
+</li>
+
+	
+	</ul>
+
+
+</nav>
+
+
+
+</div>
+</footer>
+</body>
+</html>
