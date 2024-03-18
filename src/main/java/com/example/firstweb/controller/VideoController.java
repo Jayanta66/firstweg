@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.firstweb.service.StreamingService;
 
-import reactor.core.publisher.Mono;
+//import reactor.core.publisher.Mono;
 
 
 @RestController
@@ -18,11 +18,12 @@ public class VideoController {
     @Autowired
     private StreamingService service;
 
-
+/*
     @GetMapping(value = "videos/{title}", produces = "video/mp4")
     public Mono<Resource> getVideos(@PathVariable String title, @RequestHeader("Range") String range) {
         System.out.println("range in bytes() : " + range);
         return service.getVideo(title);
     }
+*/
 
 }
