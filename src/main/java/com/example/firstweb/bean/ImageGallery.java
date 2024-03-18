@@ -15,7 +15,7 @@ import jakarta.persistence.TemporalType;
 
 
 @Entity
-@Table(name = "image_gallery")
+@Table(name = "imagegallery")
 public class ImageGallery {
 
 	@Id
